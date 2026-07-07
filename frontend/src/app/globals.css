@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #f7f8fa;
+  --surface: #ffffff;
+  --surface-muted: #f1f3f6;
+  --foreground: #14181f;
+  --foreground-muted: #5b6472;
+  --border: #e2e5ea;
+  --border-strong: #cdd2da;
+
+  --brand: #ff7a45;
+  --brand-hover: #f0632c;
+  --brand-foreground: #ffffff;
+
+  --accent: #0f9d8f;
+  --accent-foreground: #ffffff;
+
+  --success: #16a34a;
+  --success-bg: #eafaf0;
+  --warning: #d97706;
+  --warning-bg: #fef6e7;
+  --danger: #dc2626;
+  --danger-bg: #fdecec;
+  --info: #2563eb;
+  --info-bg: #eaf1fe;
+}
+
+.dark {
+  --background: #0b0d12;
+  --surface: #12151c;
+  --surface-muted: #171b23;
+  --foreground: #eef1f5;
+  --foreground-muted: #9aa3b2;
+  --border: #232833;
+  --border-strong: #313846;
+
+  --brand: #ff8b5c;
+  --brand-hover: #ff9d75;
+  --brand-foreground: #14181f;
+
+  --accent: #2dd4bf;
+  --accent-foreground: #0b0d12;
+
+  --success: #4ade80;
+  --success-bg: #113322;
+  --warning: #fbbf24;
+  --warning-bg: #3a2c0d;
+  --danger: #f87171;
+  --danger-bg: #3a1414;
+  --info: #60a5fa;
+  --info-bg: #10233f;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-success: var(--success);
+  --color-success-bg: var(--success-bg);
+  --color-warning: var(--warning);
+  --color-warning-bg: var(--warning-bg);
+  --color-danger: var(--danger);
+  --color-danger-bg: var(--danger-bg);
+  --color-info: var(--info);
+  --color-info-bg: var(--info-bg);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+::selection {
+  background: var(--color-brand);
+  color: var(--color-brand-foreground);
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: 9999px;
+}

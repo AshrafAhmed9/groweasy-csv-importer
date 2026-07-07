@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+*/node_modules/
+
+# env
+.env
+.env.local
+*/.env
+*/.env.local
+
+# build output
+dist/
+.next/
+*/dist/
+*/.next/
+
+# misc
+*.log
+coverage/
+.DS_Store

@@ -1,0 +1,6 @@
+Lead ID,First Name,Last Name,Email Address,Phone,Ad Group,Submission Date,City
+GA-1001,Rohan,Mehta,rohan.mehta@example.com,9123456701,Leads on Demand - Search,2026-06-10,Bangalore
+GA-1002,Sneha,Kulkarni,sneha.kulkarni@example.com,9123456702,Eden Park Display,2026-06-10,Pune
+GA-1003,Arjun,Verma,invalid-email-address,9123456703,Sarjapur Plots Remarketing,2026-06-11,Bangalore
+GA-1004,Neha,Joshi,neha.joshi@example.com;neha.j.alt@example.com,9123456704,Meridian Tower Search,2026-06-11,Mumbai
+GA-1005,Sameer,Khan,sameer.khan@example.com,9123456705 / 9123456799,Unmapped Campaign XYZ,2026-06-12,Delhi
