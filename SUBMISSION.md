@@ -1,31 +1,26 @@
 # Submission
 
-Send to **varun@groweasy.ai** before **12 July 2026**.
+Send to **varun@groweasy.ai** before 12 July 2026.
 
 ---
 
-**Subject:** Software Developer Intern Assignment Submission — Ashraf Ahmed
+**Subject:** Software Developer Intern Assignment — Ashraf Ahmed
 
 **Body:**
 
 Hi Varun,
 
-I've completed the AI-powered CSV Importer assignment. Details below:
+I've finished the CSV Importer assignment. Here's everything:
 
 - **Hosted application URL:** https://groweasy-csv-importer-amber.vercel.app
 - **GitHub repository URL:** https://github.com/AshrafAhmed9/groweasy-csv-importer
 - **Position applying for:** Software Developer Intern
 
-A few things I focused on beyond the core requirements:
+A quick note on what I focused on beyond the base requirements — I implemented all of the bonus items (drag & drop, live progress via SSE, retry logic for failed AI batches, a virtualized table for large files, dark mode, unit tests, Docker, and the deployment itself). Beyond that, I added a column-mapping panel so you can see exactly how the AI interpreted each source column rather than just trusting a black box, and every field the AI returns gets re-validated in code afterward (enum checks, date parsing, email/mobile checks) instead of being passed straight through. There are 5 sample CSVs in different real-world formats bundled into the app as one-click buttons, so you can try it without needing to find or make a test file yourself.
 
-- All bonus items implemented (drag & drop, live SSE progress, retry-on-failure for AI batches, virtualized table, dark mode, unit tests, Docker, deployment).
-- A column-mapping transparency panel showing exactly how the AI interpreted each source column.
-- Deterministic re-validation of every AI-returned field (enum coercion, date/email/mobile checks) rather than trusting the LLM output directly.
-- 5 sample CSVs in different real-world formats (Facebook leads, Google Ads, real-estate CRM, a deliberately messy sales report, and a manual spreadsheet) bundled in-app as one-click try buttons for quick evaluation.
+The README covers the architecture and setup in more detail.
 
-README with architecture notes and setup instructions is in the repo root.
-
-Thanks for the opportunity — looking forward to hearing from you.
+Thanks for taking the time to review this — happy to walk through any part of it.
 
 Best,
 Ashraf Ahmed
@@ -33,12 +28,12 @@ ashrafahmed1232@gmail.com
 
 ---
 
-## Pre-send checklist
+## Checklist before sending
 
-- [x] Backend deployed to Render, `/health` returns 200
-- [x] Frontend deployed to Vercel, `NEXT_PUBLIC_API_URL` points at the live backend
-- [x] UptimeRobot monitor configured on the Render `/health` endpoint
-- [x] Ran the full upload → preview → confirm → results flow on the **live** URL (not just localhost)
+- [x] Backend live on Render, `/health` returns 200
+- [x] Frontend live on Vercel, pointed at the Render backend
+- [x] UptimeRobot pinging `/health` so the backend doesn't cold-start on the reviewer
+- [x] Ran the full upload → preview → confirm → results flow on the live URL, not just localhost
 - [x] GitHub repo is public
-- [x] README links updated with the real hosted URLs
-- [ ] Send the email to varun@groweasy.ai
+- [x] README has the real URLs, not placeholders
+- [ ] Actually send the email
