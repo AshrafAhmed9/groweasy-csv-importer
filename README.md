@@ -4,8 +4,8 @@ An AI-powered CSV importer that maps **any** lead export — Facebook Lead Ads, 
 
 Built for the **Software Developer Intern** assignment at GrowEasy.
 
-- **Live app:** _add your deployed Vercel URL here_
-- **Live API:** _add your deployed Render URL here_
+- **Live app:** https://groweasy-csv-importer-amber.vercel.app
+- **Live API:** https://groweasy-csv-importer-lo1o.onrender.com
 
 ## How it works
 

@@ -12,8 +12,8 @@ Hi Varun,
 
 I've completed the AI-powered CSV Importer assignment. Details below:
 
-- **Hosted application URL:** _fill in after Vercel deploy_
-- **GitHub repository URL:** _fill in after pushing to GitHub_
+- **Hosted application URL:** https://groweasy-csv-importer-amber.vercel.app
+- **GitHub repository URL:** https://github.com/AshrafAhmed9/groweasy-csv-importer
 - **Position applying for:** Software Developer Intern
 
 A few things I focused on beyond the core requirements:
@@ -35,10 +35,10 @@ ashrafahmed1232@gmail.com
 
 ## Pre-send checklist
 
-- [ ] Backend deployed to Render, `/health` returns 200
-- [ ] Frontend deployed to Vercel, `NEXT_PUBLIC_API_URL` points at the live backend
-- [ ] UptimeRobot monitor configured on the Render `/health` endpoint
-- [ ] Ran the full upload → preview → confirm → results flow on the **live** URL (not just localhost)
-- [ ] GitHub repo is public
-- [ ] README links updated with the real hosted URLs
-- [ ] Filled in the two blanks above and sent the email
+- [x] Backend deployed to Render, `/health` returns 200
+- [x] Frontend deployed to Vercel, `NEXT_PUBLIC_API_URL` points at the live backend
+- [x] UptimeRobot monitor configured on the Render `/health` endpoint
+- [x] Ran the full upload → preview → confirm → results flow on the **live** URL (not just localhost)
+- [x] GitHub repo is public
+- [x] README links updated with the real hosted URLs
+- [ ] Send the email to varun@groweasy.ai
